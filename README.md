@@ -42,6 +42,10 @@ Have fun playing with it.
 
 ## How to Run
 
+Visit my website : https://chatwitheliza.streamlit.app/
+
+If you want to run the repository: 
+
 ### Requirements
 - Python 3.x
 - A terminal or command line interface (CLI)
