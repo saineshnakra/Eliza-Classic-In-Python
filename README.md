@@ -7,23 +7,27 @@ The purpose of this project was to create an enhanced version of the classic Eli
 ## 1. Initial Setup and Code Structure
 We started by analyzing the existing Eliza chatbot implementation, identifying the core features:
 
-## Keyword Identification: Eliza looks for specific keywords in the user’s input and applies decomposition patterns to those keywords.
-## Decomposition and Reassembly: Once a keyword is matched, the input is broken into parts and reassembled into a response using predefined templates.
-## Substitution Rules: Pre-substitution (e.g., changing "I'm" to "I am") and post-substitution rules were added to enhance the flow of conversation.
-## Memory Management: Eliza saves some parts of user input to reference in later interactions, giving the impression of memory.
+#### Keyword Identification:
+Eliza looks for specific keywords in the user’s input and applies decomposition patterns to those keywords.
+#### Decomposition and Reassembly: 
+Once a keyword is matched, the input is broken into parts and reassembled into a response using predefined templates.
+#### Substitution Rules:
+Pre-substitution (e.g., changing "I'm" to "I am") and post-substitution rules were added to enhance the flow of conversation.
+#### Memory Management: 
+Eliza saves some parts of user input to reference in later interactions, giving the impression of memory.
 
 ## 2. Algorithm Behind our Chatbot
 
-## Keyword Matching and Weighting
+#### Keyword Matching and Weighting
 We designed the system to prioritize higher-weight keywords so that when multiple keywords are found in the user’s input, the most important one is processed first, allowing for more contextually relevant responses.
 
-## Fallback Responses
+#### Fallback Responses
 I made a fallback mechanism (xnone) to have a natural placeholder for our chatbot conversation when no specific keyword is matched. This guarantees that the chatbot can respond, even when it doesn’t understand the input.
 
-## Memory and Recall
+#### Memory and Recall
 Eliza has been given the power of memory, allowing it to "remember" and reuse user inputs in future responses. This feature gives the conversation a more cohesive flow by referencing earlier parts of the discussion.
 
-## 3. The File Input
+#### 3. The File Input
 The chatbot’s behavior is driven by an external configuration file (default: doctor.txt). (taken from some other implementation of this project, I couldn't remember which one! ) This file contains:
 
 Initial greetings (tagged as initial).
