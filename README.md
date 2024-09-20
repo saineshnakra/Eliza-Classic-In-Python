@@ -2,7 +2,7 @@
 
 ## Objective
 
-The purpose of this project was to create an enhanced version of the classic Eliza chatbot, originally designed by Joseph Weizenbaum. Our goal was to maintain Eliza's simple pattern-matching approach to simulate a conversation, while improving it to handle more advanced cases, such as fallback responses, keyword prioritization, and memory management.
+The purpose of this project was to create an enhanced version of the classic Eliza chatbot, originally designed by Joseph Weizenbaum. I wanted to maintain Eliza's simple pattern-matching approach to simulate a conversation, but improve on how it handled advanced cases, like fallback responses, keyword prioritization, and memory management.
 
 ## 1. Initial Setup and Code Structure
 We started by analyzing the existing Eliza chatbot implementation, identifying the core features:
