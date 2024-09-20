@@ -27,7 +27,7 @@ I made a fallback mechanism (xnone) to have a natural placeholder for our chatbo
 #### Memory and Recall
 Eliza has been given the power of memory, allowing it to "remember" and reuse user inputs in future responses. This feature gives the conversation a more cohesive flow by referencing earlier parts of the discussion.
 
-#### 3. The File Input
+## 3. The File Input
 The chatbot’s behavior is driven by an external configuration file (default: doctor.txt). (taken from some other implementation of this project, I couldn't remember which one! ) This file contains:
 
 Initial greetings (tagged as initial).
