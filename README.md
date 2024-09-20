@@ -56,7 +56,7 @@ Have fun playing with it.
    cd Eliza-Classic-In-Python
    ```
 
-2. **You Shoulr These Required Files**  
+2. **You Should see these Required Files**  
    Make sure you have the following files in the project directory:
    - `eliza.py` (the main Python script for the chatbot)
    - `doctor.txt` (or your custom conversation script file)
